@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    image: "namansuryawanshi4/node-app-image:latest"
+    ports:
+      - "8000:8000"
